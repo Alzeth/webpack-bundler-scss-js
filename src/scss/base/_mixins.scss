@@ -1,0 +1,9 @@
+@mixin buttonGeneral($paddingTB, $paddingLR, $color, $background, $hoverColor, $hoverBackground) {
+  padding: $paddingTB $paddingLR;
+  color: $color;
+  background: $background;
+  &:hover {
+    color: $hoverColor;
+    background: $hoverBackground;
+  }
+}
